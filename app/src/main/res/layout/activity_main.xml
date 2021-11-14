@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FF70"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="80dp"
+        android:textColorHint="#C50808"
+        android:height="60dp"
+        android:hint="Edit Text"
+
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <CheckBox
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#C50808"
+        android:text="Train"
+
+        android:textSize="25dp"/>
+
+    <CheckBox
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#C50808"
+        android:text="Car"
+
+        android:textSize="25dp"/>
+
+    <CheckBox
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#C50808"
+        android:text="Bus "
+
+        android:textSize="25dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp">
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maruti Suzuki"
+            android:textSize="25dp"
+            android:textColor="#C50808"/>
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tata"
+            android:textSize="25dp"
+            android:textColor="#C50808"/>
+
+
+    </RadioGroup>
+
+
+
+
+
+</RelativeLayout>
+
